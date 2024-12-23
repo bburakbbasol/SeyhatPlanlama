@@ -59,12 +59,12 @@ class Program
 			if (transport == 1)
 			{
 				int totalPrice = (people * 1500) + packagePrice;
-				Console.WriteLine($"\nBu tatil size toplam {totalPrice} TL'ye mal olacaktır.");
+				Console.WriteLine($"{location} talili size {people} kişi  kara yolu ile toplam {totalPrice} TL'dir.");
 			}
 			if (transport == 2)
 			{
 				int totalPrice = (people * 4000) + packagePrice;
-				Console.WriteLine($"\nBu tatil size toplam {totalPrice} TL'ye mal olacaktır.");
+				Console.WriteLine($"{location} talili size {people} kişi  hava yolu ile toplam {totalPrice} TL'ye dir.");
 			}
 
 			// Başka tatil planı yapıp yapmayacağını sor
